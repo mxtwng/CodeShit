@@ -30,6 +30,43 @@ GIT CHEAT SHEET
                     Exit Vim screen: Type  :q!  + Enter  (Escape stuck editor screen in terminal)
 ===================================================================================================
 
+.md methods
+
+# Heading 1 (<h1>)
+## Heading 2 (<h2>)
+### Heading 3 (<h3>)
+
+**Bold Text**         (or __bold__)
+*Italic Text*         (or _italic_)
+~~Strikethrough~~
+
+> This is a blockquote.
+> Perfect for callouts or notes.
+
+* Bullet point item
+* Another item
+  * Indented sub-item
+
+1. First ordered step
+2. Second ordered step
+
+[Clickable Link Text](https://example.com)
+![Image Alt Text](https://example.com/image.jpg)
+
+Use `inline code` for quick variable or command references.
+
+```cpp
+// Code Block with syntax highlighting!
+#include <iostream>
+
+int main() {
+    std::cout << "Hello Markdown!";
+    return 0;
+}
+```
+
+===================================================================================================
+
 Mainly follows the progression of Algorithm book (python).<br>
 Chapter 1: Algorithm.<br>
 Chapter 2: Searching and Sorting algorithms, Brute force. <br>
@@ -94,3 +131,6 @@ Log:
 
 9. Sunday, July 26th 2026 (night)
     - New language: Python
+    OK back to Cpp (well this is like a bit of work to kick start my brain again)
+    `cout << "\033[F";  // Move cursor UP 1 line`
+    `cout << "\033[2K"; // CLEAR entire current line`

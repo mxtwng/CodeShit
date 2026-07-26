@@ -1,6 +1,6 @@
 #include "basicSorting.h"
 #include <algorithm>
-#include "../searchingAlgorithms/sortedSearch.h"
+#include "../Searching/sortedSearch.h"
 
 //bubbleSort updated with swapped mechanic to stop early if finished sorting
 void bubbleSort(int arr[], int n) {
