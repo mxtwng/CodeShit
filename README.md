@@ -1,6 +1,6 @@
 # learningCPP
 
-##This project/repo is for mxtw to learn and document their C++ studying journey
+##This project/repo is for mxtw to learn and document their C++ studying journey, from 26/07/26, this is now for every language not just C++
 
 Instruction on how to make new function: <br>
     1. Make .h with #pragma once + functionName();  <br>
@@ -8,6 +8,27 @@ Instruction on how to make new function: <br>
     3. Go to tasks.json in project folder, in args: add "path/to/your/newCPPfile.cpp" (local, i.e. no need for ~/ or @/) <br>
     4. build/run main.cpp <br>
 <hr>
+
+Here is your complete Git cheat sheet, compressed into one single reference block for fast viewing:
+
+GIT CHEAT SHEET
+===================================================================================================
+1. CORE WORKFLOW:   git pull                             (Download team's latest code)
+                    git status                           (Check which files you edited)
+                    git add .                            (Stage all your file changes)
+                    git commit -m "your description"     (Save local snapshot)
+                    git push                             (Upload changes to GitHub)
+
+2. BRANCHES:        git checkout -b feature/my-code      (Create & jump to a new branch)
+                    git push -u origin feature/my-code   (Upload new branch to GitHub)
+                    git checkout main                    (Switch back to main branch)
+
+3. EMERGENCY FIXES: git restore file.py                  (Discard edits on a file since last commit)
+                    git restore --staged file.py         (Unstage a file added with 'git add')
+                    git reset --soft HEAD~1              (Undo last commit, KEEP your file edits)
+                    git reset --hard HEAD                (Nuke ALL uncommitted local changes)
+                    Exit Vim screen: Type  :q!  + Enter  (Escape stuck editor screen in terminal)
+===================================================================================================
 
 Mainly follows the progression of Algorithm book (python).<br>
 Chapter 1: Algorithm.<br>
@@ -70,3 +91,6 @@ Log:
         + (auto it = begin(v); it != end(v); it = next(it))
     - std::string: std::cin breaks on a whitespace || operator>> ignore leading whitespace -> use std::getline()
         std::getline(std::cin >> std::ws, str);
+
+9. Sunday, July 26th 2026 (night)
+    - New language: Python
