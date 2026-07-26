@@ -31,39 +31,63 @@ GIT CHEAT SHEET
 ===================================================================================================
 
 .md methods
+# HEADINGS
+===================================================================
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
 
-# Heading 1 (<h1>)
-## Heading 2 (<h2>)
-### Heading 3 (<h3>)
 
-**Bold Text**         (or __bold__)
-*Italic Text*         (or _italic_)
+# TEXT STYLING
+===================================================================
+*Italic Text*          or  _Italic Text_
+**Bold Text**          or  __Bold Text__
+***Bold & Italic***    or  ___Bold & Italic___
 ~~Strikethrough~~
+`Inline code`          (monospaced font for variables or commands)
 
-> This is a blockquote.
-> Perfect for callouts or notes.
 
-* Bullet point item
-* Another item
-  * Indented sub-item
+# LISTS & TASKS
+===================================================================
+* Bullet item 1
+* Bullet item 2
+  * Sub-bullet item
+  * Another sub-bullet
 
-1. First ordered step
-2. Second ordered step
+1. First numbered item
+2. Second numbered item
+3. Third numbered item
 
-[Clickable Link Text](https://example.com)
-![Image Alt Text](https://example.com/image.jpg)
+- [x] Completed task item
+- [ ] Uncompleted task item
 
-Use `inline code` for quick variable or command references.
 
+# LINKS & IMAGES
+===================================================================
+[Clickable Link Text](https://github.com)
+![Image Alt Text](https://via.placeholder.com/150)
+
+
+# BLOCKQUOTES & SEPARATORS
+===================================================================
+> This is a blockquote callout.
+> It can span multiple lines.
+
+---
+(The three dashes above create a horizontal dividing line)
+
+
+# CODE BLOCKS
+===================================================================
 ```cpp
-// Code Block with syntax highlighting!
+// Fenced code block with syntax highlighting
 #include <iostream>
 
 int main() {
-    std::cout << "Hello Markdown!";
+    std::cout << "Hello World!\n";
     return 0;
 }
-```
 
 ===================================================================================================
 
