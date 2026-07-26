@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+#define ll long long 
+using namespace std;
+
+int main() {
+    cin.tie(NULL); ios::sync_with_stdio(0);
+    int T, n; cin >> T;
+    
+    vector<int> ans = {};
+    while (T--) {
+        cin >> n;
+        vector<pair<int, int>> sticks (n);
+        for (auto& [l, w]: sticks) cin >> l >> w;
+        
+        sort(sticks.begin(), sticks.end());
+        
+        vector<int> ans = {};
+        for (auto& [l, w]: sticks) {
+            auto idx = upper_bound(ans.begin(), ans.end(), w);
+            if (idx == ans.end()) ans.push_back(w);
+            else *idx = w;
+        }
+        cout << ans.size();
+    }
+}
