@@ -29,7 +29,6 @@ GIT CHEAT SHEET
                     git reset --hard HEAD                (Nuke ALL uncommitted local changes)
                     Exit Vim screen: Type  :q!  + Enter  (Escape stuck editor screen in terminal)
 ===================================================================================================
-
 .md methods
 # HEADINGS
 ===================================================================
